@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateSelf : MonoBehaviour {
 
-    public GameObject imageSprite;
+    public GameObject imageSprite, imageTest;
 	// Use this for initialization
 	void Start () {
         imageSprite.transform.position = new Vector3(-25.0f,0.0f,0.0f);
@@ -21,6 +21,11 @@ public class RotateSelf : MonoBehaviour {
             po = new Vector3((po.x += 0.5f), 0);
             imageSprite.transform.position = po;
             imageSprite.transform.Rotate(new Vector3(0, 0, 5));
+        }
+
+        else
+        {
+            imageTest.active = true;
         }
 
     }
