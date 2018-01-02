@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class RotateSelf : MonoBehaviour {
 
+<<<<<<< HEAD
     public GameObject imageSprite;
     public GameObject text;
+=======
+    public GameObject imageSprite, imageTest;
+>>>>>>> refs/remotes/origin/TaiProject
 	// Use this for initialization
 	void Start () {
         imageSprite.transform.position = new Vector3(-25.0f,0.0f,0.0f);
@@ -26,6 +30,11 @@ public class RotateSelf : MonoBehaviour {
         else
         {
             text.active = true;
+        }
+
+        else
+        {
+            imageTest.active = true;
         }
 
     }
