@@ -4,14 +4,9 @@ using UnityEngine;
 
 public class RotateSelf : MonoBehaviour {
 
-<<<<<<< HEAD
-    public GameObject imageSprite;
-    public GameObject text;
-=======
     public GameObject imageSprite, imageTest;
->>>>>>> refs/remotes/origin/TaiProject
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         imageSprite.transform.position = new Vector3(-25.0f,0.0f,0.0f);
         imageSprite.transform.eulerAngles = new Vector3(0.0f, 0.0f, 120.0f);
     }
@@ -27,11 +22,7 @@ public class RotateSelf : MonoBehaviour {
             imageSprite.transform.position = po;
             imageSprite.transform.Rotate(new Vector3(0, 0, 5));
         }
-        else
-        {
-            text.active = true;
-        }
-
+        
         else
         {
             imageTest.active = true;
