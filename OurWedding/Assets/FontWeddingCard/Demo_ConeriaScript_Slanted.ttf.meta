@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b7687248e2a15d941914f04972430f50
+timeCreated: 1519301083
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Coneria Script Slanted Demo
+  fontNames:
+  - Coneria Script Slanted Demo
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
