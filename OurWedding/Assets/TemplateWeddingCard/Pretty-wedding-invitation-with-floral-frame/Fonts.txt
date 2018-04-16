@@ -1,0 +1,10 @@
+Fonts used in this design;
+
+Font: Pompiere , 
+Author: Sorkin Type Co, 
+Url: http://www.fontsquirrel.com/fonts/pompiere; 
+
+Font: Dancing script, 
+Author: Impallari Type, 
+Url: https://fonts.google.com/specimen/dancing+script; 
+

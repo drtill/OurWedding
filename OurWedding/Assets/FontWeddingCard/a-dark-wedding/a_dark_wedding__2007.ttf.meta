@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 31aafc7fe48ae734d955ea52813d83fd
+timeCreated: 1518106202
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: A Dark Wedding
+  fontNames:
+  - A Dark Wedding
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
