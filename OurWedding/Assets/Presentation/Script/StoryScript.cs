@@ -6,37 +6,45 @@ public class StoryScript : MonoBehaviour {
 
 
     public int step;
-    public GameObject player;
-	// Use this for initialization
-	void Start () {
+    public GameObject Knot;
+    public GameObject Katai;
+    public GameObject NPC;
+
+    private PlayerController KnotController;
+    private PlayerController KataiController;
+    // Use this for initialization
+    void Start () {
         step = 0;
-	}
+
+        KnotController = Knot.GetComponent<PlayerController>();
+        KataiController = Katai.GetComponent<PlayerController>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
         if(step == 0)
         {
-            player.GetComponent<PlayerController>().WalkLeft();
+            KnotController.WalkLeft();
 
-            if(player.transform.position.x <= -1.5)
+            if(KnotController.GetPosition().x <= -1.5)
             {
                 step = 1;
             }
         }
         else if(step == 1)
         {
-            player.GetComponent<PlayerController>().WalkUp();
+            KnotController.WalkUp();
 
-            if (player.transform.position.y >= 1.5)
+            if (KnotController.GetPosition().y >= 1.5)
             {
                 step = 2;
             }
         }
         else if (step == 2)
         {
-            player.GetComponent<PlayerController>().WalkRight();
+            KnotController.WalkRight();
 
-            if (player.transform.position.x >= 1.5)
+            if (KnotController.GetPosition().x >= 1.5)
             {
                 step = 3;
             }
