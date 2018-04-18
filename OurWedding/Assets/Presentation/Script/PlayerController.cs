@@ -105,4 +105,9 @@ public class PlayerController : MonoBehaviour {
         anim.SetBool("moveDown", true);
         anim.speed = 1;
     }
+
+    public Vector3 GetPosition()
+    {
+        return transform.position;
+    }
 }
